@@ -6,13 +6,13 @@ const botRem = new Discord.Client();
 
 //Set listener on 'ready'
 botRem.on('ready', () => {
-  console.log('Rem ready!');
+  console.log('ปู๊ปๆ');
 });
 
 //Set listener on 'message'
 botRem.on('message', message => {
-  if (message.content === 'ฉันรักเอมิเลีย') {
-    message.reply('ถึงยังไงเรมก็รักสุบารุค่ะ');
+  if (message.content === '') {
+    message.reply('');
   }
 });
 
